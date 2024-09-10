@@ -1,1 +1,110 @@
-ki
+<!DOCTYPE html>
+<html lang="ky">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Менин Жеке Сайтым</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Менин Жеке Блок жана Портфолио</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">Мен жөнүндө</a></li>
+                <li><a href="#portfolio">Портфолио</a></li>
+                <li><a href="#contact">Байланыш</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>Мен жөнүндө</h2>
+        <p>Салам! Мен Нурислам, 17 жаштамын жана техникалык программалоо менен алектенем.</p>
+    </section>
+
+    <section id="portfolio">
+        <h2>Портфолио</h2>
+        <p>Бул жерге менин иштеген долбоорлорумду кошо аласыз.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Байланыш</h2>
+        <p>Мага төмөнкү платформалар аркылуу байланышсаңыз болот:</p>
+        <ul class="contact-list">
+            <li><a href="https://t.me/your_telegram_username" target="_blank">Telegram</a></li>
+            <li><a href="https://instagram.com/your_instagram_username" target="_blank">Instagram</a></li>
+            <li><a href="mailto:your_email@gmail.com" target="_blank">Gmail</a></li>
+            <li><a href="https://wa.me/your_whatsapp_number" target="_blank">WhatsApp Business</a></li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Менин Жеке Сайтым. Бардык укуктар корголгон.</p>
+    </footer>
+</body>
+</html>
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #0056b3;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.contact-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.contact-list li {
+    margin-bottom: 10px;
+}
+
+.contact-list li a {
+    color: #0056b3;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contact-list li a:hover {
+    text-decoration: underline;
+}
